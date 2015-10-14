@@ -30,5 +30,6 @@ notifications:
     recipients:
       varsha@shippable.com
       varsha.arun@yopmail.com
+      varsha@yopmail.com
 
 archive: true
