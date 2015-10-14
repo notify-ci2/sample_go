@@ -28,5 +28,6 @@ script:
 notifications:
   email:
     varsha@shippable.com
+    varsha.arun@yopmail.com
 
 archive: true
