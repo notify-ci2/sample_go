@@ -26,7 +26,6 @@ script:
   - $GOPATH/bin/gocover-cobertura < coverage.txt > shippable/codecoverage/coverage.xml
   
 notifications:
-  email:
-    varsha@shippable.com
+  email: false
 
 archive: true
