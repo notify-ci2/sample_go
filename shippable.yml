@@ -28,6 +28,6 @@ script:
 #notifications:
  # email: false
   
-#archive: true
+archive: true
 
 cache: true
