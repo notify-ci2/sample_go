@@ -28,7 +28,8 @@ script:
 notifications:
   email: 
     varsha@shippable.com
-  irc:  "webchat.freenode.net/#test-irc"
+  irc:  
+    channels:
+    - "chat.freenode.net#test-irc"
     
-  
 archive: true
