@@ -28,9 +28,9 @@ script:
 notifications:
   email: 
     varsha@shippable.com
-  irc:
-    varshaan
+#  irc:
+#    varshaan
   
 archive: true
 
-cache: true
+#cache: true
