@@ -30,6 +30,6 @@ notifications:
     varsha@shippable.com
   irc:  
     channels:
-    - "chat.freenode.net#test-irc"
+      - "chat.freenode.net#test-irc"
     
 archive: true
