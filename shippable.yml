@@ -28,7 +28,6 @@ script:
 notifications:
   email: 
     varsha@shippable.com
-    
   irc:
     test-irc
   
