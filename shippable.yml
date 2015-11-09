@@ -15,6 +15,8 @@ before_install:
   - go get github.com/onsi/gomega
   - go get github.com/onsi/ginkgo
   - go get code.google.com/p/go.tools/cmd/cover
+  
+build_image: shippable/minv2
 
 # Make folders for the reports
 before_script:
