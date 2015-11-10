@@ -7,6 +7,7 @@ go:
  # - CI_REPORT=shippable/testresults/junit.xml
 
 before_install:
+  - travis_retry 'if [ $i -eq 3 ]; then echo "done"; else foobar$i; fi'
   - export GOPATH=$SHIPPABLE_GOPATH
   - source $HOME/.gvm/scripts/gvm
   - gvm install go$SHIPPABLE_GO_VERSION
@@ -15,6 +16,8 @@ before_install:
   - go get github.com/onsi/gomega
   - go get github.com/onsi/ginkgo
   - go get code.google.com/p/go.tools/cmd/cover
+  
+build_image: shippable/minv2
 
 # Make folders for the reports
 before_script:
