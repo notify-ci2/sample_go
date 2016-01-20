@@ -8,7 +8,7 @@ go:
   
 matrix:
   exclude:
-    - go: 1.4
+    - go: 1.2
     - go: 1.5
     
 env:
