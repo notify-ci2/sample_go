@@ -7,7 +7,7 @@ go:
   - 1.5
   
 matrix:
-  except:
+  exclude:
     - go: 1.4
     - go: 1.5
     
